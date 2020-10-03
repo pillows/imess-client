@@ -51,8 +51,8 @@ export default {
   data () {
     return {
       // Load from config
-      server_address: 'http://192.168.0.10:44055',
-      server: new Server('http://192.168.0.10', this, 44055, 'api'),
+      server_address: 'http://localhost:44055',
+      server: new Server('http://localhost', this, 44055, 'api'),
       msg: 'Hello World22!222',
       test: '',
       attachments: {},
